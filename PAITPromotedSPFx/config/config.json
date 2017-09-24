@@ -1,0 +1,28 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pait-promoted-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/paitPromotedLinks/PaitPromotedLinksWebPart.js",
+          "manifest": "./src/webparts/paitPromotedLinks/PaitPromotedLinksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-1.12.4.min.js",
+      "globalName": "jQuery"
+      },
+    "flip": {
+      "path": "https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js",
+      "globalName": "jQuery",
+      "globalDependencies": ["jquery"]
+      }
+  },
+  "localizedResources": {
+    "PaitPromotedLinksWebPartStrings": "lib/webparts/paitPromotedLinks/loc/{locale}.js"
+  }
+}

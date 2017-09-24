@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.2.0",
+    "libraryName": "pait-promoted-links",
+    "libraryId": "ab014ce6-ddb5-4f55-8607-c5d31324ae38",
+    "environment": "spo"
+  }
+}

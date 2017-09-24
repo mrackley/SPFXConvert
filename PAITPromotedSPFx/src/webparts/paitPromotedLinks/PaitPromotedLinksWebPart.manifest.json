@@ -1,0 +1,30 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "ae5b453f-8124-42c7-89aa-b5f353deb165",
+  "alias": "PaitPromotedLinksWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "ae5b453f-8124-42c7-89aa-b5f353deb165",
+    "group": { "default": "Under Development" },
+    "title": { "default": "PaitPromotedLinks" },
+    "description": { "default": "PAITPromotedLinks description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "PaitPromotedLinks",
+      "listName": "PromotedLinks",
+      "tileWidth": 150,
+      "tileHeight": 150,
+      "showTitle":  true
+    }
+  }]
+}

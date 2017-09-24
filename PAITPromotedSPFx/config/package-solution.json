@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pait-promoted-links-client-side-solution",
+    "id": "ab014ce6-ddb5-4f55-8607-c5d31324ae38",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/pait-promoted-links.sppkg"
+  }
+}

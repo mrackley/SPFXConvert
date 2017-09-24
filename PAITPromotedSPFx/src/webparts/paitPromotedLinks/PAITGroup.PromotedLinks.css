@@ -1,0 +1,35 @@
+.PAITLink-Tile{
+	display: table;
+	color: white;
+	padding: 0px;
+	margin-bottom: 0px;
+		cursor:pointer;
+	}
+	.PAITLink-Tile:hover .PAITLink-TileTitle{
+		background-color:#000;
+		cursor:pointer;
+	}	
+	.PAITLink-TileTitle
+	{
+		text-align:center;
+		position: absolute; 
+	    bottom: 0;
+	    left: 0;
+	    font-size:large;
+	    background-color:#333333;
+	    opacity: 0.90;
+	    width: 100%;
+	}
+	.front, .PAITLink-Tile
+	{
+		color: white;
+	}
+	.back	
+	{
+		display: table-cell;
+		padding: 0px;
+		margin: 0px;
+		vertical-align: middle;
+		text-align: center;
+		background-color:#000;
+	}
